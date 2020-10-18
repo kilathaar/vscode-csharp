@@ -21,4 +21,4 @@ För detta repository användes kommandot `dotnet new sln -n HelloWorld -o Hello
 
 ### Skapa ett konsoll-projekt
 1. `cd HelloWorld`
-1. `
+1. `dotnet new console -n HelloWorld`
