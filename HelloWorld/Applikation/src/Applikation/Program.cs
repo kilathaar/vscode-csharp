@@ -4,7 +4,7 @@ using Entitet;
 namespace Applikation {
 	public class Program {
 		static void Main(string[] args) {
-			Console.WriteLine(new Text("Hello World!"));
+			Console.WriteLine(new Program().text());
 		}
 
 		public string text() {
