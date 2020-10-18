@@ -23,5 +23,15 @@ namespace EntitetTests {
 		public void borde_göra_undantag_när_sträng_är_enbart_mellanslag() {
 			Assert.Throws<ArgumentException>(() => new Text("   "));
 		}
+
+		[Test]
+		public void borde_returnera_A() {
+			Assert.AreEqual("A", new Text("A").ToString());
+		}
+
+		[Test]
+		public void borde_returnera_b() {
+			Assert.AreEqual("b", new Text("b").ToString());
+		}
 	}
 }
