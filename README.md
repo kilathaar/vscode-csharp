@@ -43,3 +43,6 @@ projekt individuellt.
 Se `dotnet new sln --help`
 
 Se [C# solution katalogstruktur](https://gist.github.com/kilathaar/510457073616ed3479509db1df022a38) för exempel på kommandon man kan skriva.
+
+## Erfarenheter
+* [.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer) är otroligt långsam och upptäcker inte automatiskt nya tester.
