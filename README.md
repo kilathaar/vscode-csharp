@@ -2,6 +2,8 @@
 
 Experimentellt projekt för att lära mig sätta upp projekt för [C#](https://docs.microsoft.com/en-us/dotnet/csharp/).
 
+*(Självklart är detta projekt extremt överkonstruerat för det lilla som produceras)*
+
 1. Installera [Visual Studio Code](https://code.visualstudio.com/)
 1. Installera [.NET Core SDK](https://dotnet.microsoft.com/download)
 
@@ -16,3 +18,7 @@ projekt individuellt.
 Se `dotnet new sln --help`
 
 För detta repository användes kommandot `dotnet new sln -n HelloWorld -o HelloWorld`
+
+### Skapa ett konsoll-projekt
+1. `cd HelloWorld`
+1. `
