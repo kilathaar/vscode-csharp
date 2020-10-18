@@ -23,6 +23,6 @@ För detta repository användes kommandot `dotnet new sln -n HelloWorld -o Hello
 Konsoll-projekt verkar skapas med en *main*-metod.
 
 1. `cd HelloWorld`
+1. Konfigurera [.gitignore](https://raw.githubusercontent.com/dotnet/core/master/.gitignore)
 1. `dotnet new console -n Applikation`
 1. `dotnet sln add Applikation/Applikation.csproj`
-1. Konfigurera [.gitignore](https://raw.githubusercontent.com/dotnet/core/master/.gitignore)
