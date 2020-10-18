@@ -7,6 +7,25 @@ Experimentellt projekt för att lära mig sätta upp projekt för [C#](https://d
 1. Installera [Visual Studio Code](https://code.visualstudio.com/)
 1. Installera [.NET Core SDK](https://dotnet.microsoft.com/download)
 
+## Katalogstruktur
+[Organizing and testing projects with the .NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tutorials/testing-with-cli) visar nedanstående katalogstruktur:
+
+```
+/NewTypes
+|__/src
+   |__/NewTypes
+      |__/Pets
+         |__Dog.cs
+         |__Cat.cs
+         |__IPet.cs
+      |__Program.cs
+      |__NewTypes.csproj
+|__/test
+   |__NewTypesTests
+      |__PetTests.cs
+      |__NewTypesTests.csproj
+```
+
 ## Solutions
 Referens: [What's the purpose of using solution files for DotNet Core projects?](https://stackoverflow.com/questions/43426982/dotnet-core-purpose-of-solution-files)
 
@@ -19,10 +38,14 @@ Se `dotnet new sln --help`
 
 För detta repository användes kommandot `dotnet new sln -n HelloWorld -o HelloWorld`
 
-### Skapa ett konsoll-projekt
-Konsoll-projekt verkar skapas med en *main*-metod.
+## Skapa ett konsoll-projekt
+Det finns säkert någon mer elegant lösning men detta var vad jag gjorde.
 
 1. `cd HelloWorld`
 1. Konfigurera [.gitignore](https://raw.githubusercontent.com/dotnet/core/master/.gitignore)
 1. `dotnet new console -n Applikation`
+1. `cd Applikation`
+1. `mkdir -p src/main`
+1. `mv Program.cs src/main`
+1. `cd ..`
 1. `dotnet sln add Applikation/Applikation.csproj`
