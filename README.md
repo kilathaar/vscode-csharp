@@ -6,6 +6,9 @@ Experimentellt projekt för att lära mig sätta upp projekt för [C#](https://d
 
 1. Installera [Visual Studio Code](https://code.visualstudio.com/)
 1. Installera [.NET Core SDK](https://dotnet.microsoft.com/download)
+1. Installera följande *extensions* i Visual Studio Code:
+   1. [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp), `@id:ms-dotnettools.csharp`
+   1. [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode), `@id:visualstudioexptteam.vscodeintellicode`
 
 ## Katalogstruktur
 [Organizing and testing projects with the .NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tutorials/testing-with-cli) visar nedanstående katalogstruktur:
