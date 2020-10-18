@@ -46,4 +46,5 @@ För detta repository användes kommandot `dotnet new sln -n HelloWorld -o Hello
 1. `cd HelloWorld`
 1. Konfigurera [.gitignore](https://raw.githubusercontent.com/dotnet/core/master/.gitignore)
 1. `dotnet new console -n Applikation -o Applikation/src/Applikation`
+1. `dotnet new nunit -n ApplikationTests -o Applikation/test/ApplikationTests`
 1. `dotnet sln add Applikation/src/Applikation/Applikation.csproj`
