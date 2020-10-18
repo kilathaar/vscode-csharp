@@ -20,9 +20,13 @@ Se `dotnet new sln --help`
 För detta repository användes kommandot `dotnet new sln -n HelloWorld -o HelloWorld`
 
 ### Skapa ett konsoll-projekt
-Konsoll-projekt verkar skapas med en *main*-metod.
+Det finns säkert någon mer elegant lösning men detta var vad jag gjorde.
 
 1. `cd HelloWorld`
 1. Konfigurera [.gitignore](https://raw.githubusercontent.com/dotnet/core/master/.gitignore)
 1. `dotnet new console -n Applikation`
+1. `cd Applikation`
+1. `mkdir -p src/main`
+1. `mv Program.cs src/main`
+1. `cd ..`
 1. `dotnet sln add Applikation/Applikation.csproj`
