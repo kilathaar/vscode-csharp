@@ -25,6 +25,7 @@ Experimentellt projekt för att lära mig sätta upp projekt för [C#](https://d
       |__PetTests.cs
       |__NewTypesTests.csproj
 ```
+Den påminner tillräckligt om den katalogstruktur jag brukar använda för Java så den tänker jag försöka följa.
 
 ## Solutions
 Referens: [What's the purpose of using solution files for DotNet Core projects?](https://stackoverflow.com/questions/43426982/dotnet-core-purpose-of-solution-files)
@@ -38,14 +39,11 @@ Se `dotnet new sln --help`
 
 För detta repository användes kommandot `dotnet new sln -n HelloWorld -o HelloWorld`
 
-## Skapa ett konsoll-projekt
-Det finns säkert någon mer elegant lösning men detta var vad jag gjorde.
-
+## Instruktioner för att återskapa katalogstruktur i detta projekt
+1. Skapa projekt på GitHub och klona det till lokal katalog.
+1. `cd vscode-csharp`
+1. `dotnet new sln -n HelloWorld -o HelloWorld`
 1. `cd HelloWorld`
 1. Konfigurera [.gitignore](https://raw.githubusercontent.com/dotnet/core/master/.gitignore)
-1. `dotnet new console -n Applikation`
-1. `cd Applikation`
-1. `mkdir -p src/main`
-1. `mv Program.cs src/main`
-1. `cd ..`
-1. `dotnet sln add Applikation/Applikation.csproj`
+1. `dotnet new console -n Applikation -o Applikation/src/Applikation`
+1. `dotnet sln add Applikation/src/Applikation/Applikation.csproj`
