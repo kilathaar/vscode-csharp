@@ -40,12 +40,17 @@ Se `dotnet new sln --help`
 För detta repository användes kommandot `dotnet new sln -n HelloWorld -o HelloWorld`
 
 ## Instruktioner för att återskapa katalogstruktur i detta projekt
+ALla kommandon har exekverats i ett Git Bash-shell.
+
+Punkt 6 - 10 repeteras för varje projekt som skall läggas till.
+
 1. Skapa projekt på GitHub och klona det till lokal katalog.
 1. `cd vscode-csharp`
 1. `dotnet new sln -n HelloWorld -o HelloWorld`
 1. `cd HelloWorld`
 1. Konfigurera [.gitignore](https://raw.githubusercontent.com/dotnet/core/master/.gitignore)
-1. `dotnet new console -n Applikation -o Applikation/src/Applikation`
-1. `dotnet new nunit -n ApplikationTests -o Applikation/test/ApplikationTests`
-1. `dotnet add Applikation/test/ApplikationTests/ApplikationTests.csproj reference Applikation/src/Applikation/Applikation.csproj`
-1. `dotnet sln add Applikation/src/Applikation/Applikation.csproj`
+1. `projekt="Applikation"`
+1. `dotnet new console -n ${projekt} -o $projekt/src/${projekt}`
+1. `dotnet new nunit -n ${projekt}Tests -o ${projekt}/test/${projekt}Tests`
+1. `dotnet add ${projekt}/test/${projekt}Tests/${projekt}Tests.csproj reference ${projekt}/src/${projekt}/${projekt}.csproj`
+1. `dotnet sln add ${projekt}/src/${projekt}/${projekt}.csproj`
