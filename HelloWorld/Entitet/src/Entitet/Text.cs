@@ -6,7 +6,7 @@ namespace Entitet {
 
 		public Text(string text) {
 			if (String.IsNullOrEmpty(text) || String.IsNullOrWhiteSpace(text)) {
-				throw new ArgumentException("Text måste finnas");
+				throw new ArgumentException("Text måste finnas och får inte vara tom eller enbart mellanslag");
 			}
 			this.text = text;
 		}
