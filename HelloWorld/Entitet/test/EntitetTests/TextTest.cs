@@ -18,5 +18,10 @@ namespace EntitetTests {
 		public void borde_göra_undantag_när_sträng_är_tom() {
 			Assert.Throws<ArgumentException>(() => new Text(""));
 		}
+
+		[Test]
+		public void borde_göra_undantag_när_sträng_är_enbart_mellanslag() {
+			Assert.Throws<ArgumentException>(() => new Text("   "));
+		}
 	}
 }
