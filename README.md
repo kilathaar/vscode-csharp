@@ -10,7 +10,9 @@ Experimentellt projekt för att lära mig sätta upp projekt för [C#](https://d
    1. [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp), `@id:ms-dotnettools.csharp`  
    Se [Omnisharp configuration options](https://github.com/OmniSharp/omnisharp-roslyn/wiki/Configuration-Options) för instruktioner om konfigurera C# formattering.
    1. [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode), `@id:visualstudioexptteam.vscodeintellicode`
-   1. [.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer), `formulahendry.dotnet-test-explorer`
+   1. 
+   1. [.Net Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=derivitec-ltd.vscode-dotnet-adapter), `derivitec-ltd.vscode-dotnet-adapter`  
+   **OBSERVERA** Välj rätt *extension* Det finns i varje fall två stycken olika Test Explorer med nästan identiskt namn. [.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer), `formulahendry.dotnet-test-explorer` verkar mer populär men är betydligt långsammare på att köra tester.
 
 ## Katalogstruktur
 [Organizing and testing projects with the .NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tutorials/testing-with-cli) visar nedanstående katalogstruktur:
@@ -43,6 +45,3 @@ projekt individuellt.
 Se `dotnet new sln --help`
 
 Se [C# solution katalogstruktur](https://gist.github.com/kilathaar/510457073616ed3479509db1df022a38) för exempel på kommandon man kan skriva.
-
-## Erfarenheter
-* [.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer) är otroligt långsam och upptäcker inte automatiskt nya tester.
