@@ -1,6 +1,6 @@
 ﻿using System;
 
 namespace Entitet {
-	public class Class1 {
+	public class Text {
 	}
 }
