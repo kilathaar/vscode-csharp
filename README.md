@@ -1,5 +1,7 @@
 # vscode-csharp
 
+Experimentellt projekt för att lära mig sätta upp projekt för [C#](https://docs.microsoft.com/en-us/dotnet/csharp/).
+
 1. Installera [Visual Studio Code](https://code.visualstudio.com/)
 1. Installera [.NET Core SDK](https://dotnet.microsoft.com/download)
 
