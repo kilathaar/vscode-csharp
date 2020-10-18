@@ -10,6 +10,7 @@ Experimentellt projekt för att lära mig sätta upp projekt för [C#](https://d
    1. [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp), `@id:ms-dotnettools.csharp`  
    Se [Omnisharp configuration options](https://github.com/OmniSharp/omnisharp-roslyn/wiki/Configuration-Options) för instruktioner om konfigurera C# formattering.
    1. [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode), `@id:visualstudioexptteam.vscodeintellicode`
+   1. [.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer), `formulahendry.dotnet-test-explorer`
 
 ## Katalogstruktur
 [Organizing and testing projects with the .NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tutorials/testing-with-cli) visar nedanstående katalogstruktur:
