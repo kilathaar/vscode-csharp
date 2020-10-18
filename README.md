@@ -45,7 +45,8 @@ För detta repository användes kommandot `dotnet new sln -n HelloWorld -o Hello
 ## Instruktioner för att återskapa katalogstruktur i detta projekt
 ALla kommandon har exekverats i ett Git Bash-shell.
 
-Punkt 6 - 10 repeteras för varje projekt som skall läggas till. Projektet "Applikation" genererades med kommandot `dotnet new console -n ${projekt} -o $projekt/src/${projekt}`
+Punkt 6 - 10 repeteras för varje projekt som skall läggas till.  
+*(Projektet "Applikation" genererades med kommandot `dotnet new console -n ${projekt} -o $projekt/src/${projekt}`)*
 
 1. Skapa projekt på GitHub och klona det till lokal katalog.
 1. `cd vscode-csharp`
