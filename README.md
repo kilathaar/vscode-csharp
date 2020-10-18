@@ -12,6 +12,7 @@ Experimentellt projekt för att lära mig sätta upp projekt för [C#](https://d
    1. [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode), `@id:visualstudioexptteam.vscodeintellicode`
    1. [.Net Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=derivitec-ltd.vscode-dotnet-adapter), `derivitec-ltd.vscode-dotnet-adapter`  
    **OBSERVERA!** Välj rätt *extension* Det finns i varje fall två stycken olika Test Explorer med nästan identiskt namn. *([.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer), `formulahendry.dotnet-test-explorer` verkar mer populär men är betydligt långsammare på att köra tester.)*
+   1. [NuGet Package Manager](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager), `jmrog.vscode-nuget-package-manager`
 
 ## Katalogstruktur
 [Organizing and testing projects with the .NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tutorials/testing-with-cli) visar nedanstående katalogstruktur:
