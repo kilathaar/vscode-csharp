@@ -3,18 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applikation", "Applikation", "{B2F79E96-9CFC-4506-B90B-DDB3BDECEBF8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entitet", "Entitet", "{93CA2127-A8B0-4D38-ADEC-9BC9F619DEDD}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9387B7B0-3B9B-4132-999F-A19263078117}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplikationTests", "Applikation\test\ApplikationTests\ApplikationTests.csproj", "{0F398D91-16FD-4D93-A662-DBBC3866339D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EB808770-AF6F-4CBC-A914-E8DD355C31AD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitetTests", "Entitet\test\EntitetTests\EntitetTests.csproj", "{61B4870D-E177-478E-B20B-CAE10286FCEC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
