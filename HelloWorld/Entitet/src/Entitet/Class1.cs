@@ -1,8 +1,6 @@
 ﻿using System;
 
-namespace Entitet
-{
-    public class Class1
-    {
-    }
+namespace Entitet {
+	public class Class1 {
+	}
 }
