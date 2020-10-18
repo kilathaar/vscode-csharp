@@ -4,15 +4,7 @@ Experimentellt projekt för att lära mig sätta upp projekt för [C#](https://d
 
 *(Självklart är detta projekt extremt överkonstruerat för det lilla som produceras)*
 
-1. Installera [Visual Studio Code](https://code.visualstudio.com/)
-1. Installera [.NET Core SDK](https://dotnet.microsoft.com/download)
-1. Installera följande *extensions* i Visual Studio Code:
-   1. [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp), `@id:ms-dotnettools.csharp`  
-   Se [Omnisharp configuration options](https://github.com/OmniSharp/omnisharp-roslyn/wiki/Configuration-Options) för instruktioner om konfigurera C# formattering.
-   1. [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode), `@id:visualstudioexptteam.vscodeintellicode`
-   1. [.Net Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=derivitec-ltd.vscode-dotnet-adapter), `derivitec-ltd.vscode-dotnet-adapter`  
-   **OBSERVERA!** Välj rätt *extension* Det finns i varje fall två stycken olika Test Explorer med nästan identiskt namn. *([.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer), `formulahendry.dotnet-test-explorer` verkar mer populär men är betydligt långsammare på att köra tester.)*
-   1. [NuGet Package Manager](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager), `jmrog.vscode-nuget-package-manager`
+[Installera och konfigurera Visual Studio Code](https://gist.github.com/kilathaar/845d406246de5fc42275bfe9c531db5e)
 
 ## Katalogstruktur
 [Organizing and testing projects with the .NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tutorials/testing-with-cli) visar nedanstående katalogstruktur:
